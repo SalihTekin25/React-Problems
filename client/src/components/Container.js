@@ -1,8 +1,17 @@
-import React from 'react'
+import ChatForm from './ChatForm'
+import ChatList from './ChatList'
+import '../App.css'
 
 const Container = () => {
+
+  
+  
   return (
-    <div>Container</div>
+    <div className='App'>
+      <ChatList />
+
+      <ChatForm />
+    </div>
   )
 }
 
